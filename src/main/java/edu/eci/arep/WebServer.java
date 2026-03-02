@@ -16,7 +16,6 @@ import java.util.concurrent.Executors;
  */
 public class WebServer {
 
-    private static final int DEFAULT_PORT = 8080;
     private static final int THREAD_POOL_SIZE = 10;
 
     private final int port;
